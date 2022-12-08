@@ -18,4 +18,8 @@ func main() {
 
 	floatSum = math.Round(floatSum*100)/100
 	fmt.Println("The floating sum is now ", floatSum)
+
+	circleRadius := 15.5
+	circumference := 2.0 * circleRadius * math.Pi
+	fmt.Printf("The circumference of a circle with radius of %.2f is %.2f", circleRadius, circumference)
 }
